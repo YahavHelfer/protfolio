@@ -11,43 +11,6 @@ body {
   padding: 30px 0;
 }
 
-.imgC {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-
-}
-
-.imgC img {
-  width: 35px;
-  transition: transform 0.3s ease;
-}
-
-.imgC img:hover {
-  transform: scale(1.3);
-}
-
-.meIMG {
-  border-radius: 30px;
-  transition: transform 0.3s ease;
-}
-
-
-
-.meIMG:hover {
-  transform: scale(1.1);
-}
-
-.meAbout {
-  display: flex;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  margin-left: 50px;
-}
-
 nav {
   position: relative;
   left: 75%;
@@ -58,13 +21,11 @@ nav {
 .logo {
   margin: 0;
   padding: 0;
-  width: 180px;
+  width: 200px;
   z-index: 1;
-  position: absolute;
-  display: flex;
+  position: fixed;
   left: 550px;
-  bottom: 0;
-  top:0
+  bottom: 365px;
 }
 
 img {
@@ -107,8 +68,6 @@ body {
 #hero {
   background-color: #f4f4f4;
   padding: 100px 0;
-  display: flex;
-  justify-content: space-between;
 }
 
 #hero h2 {
@@ -157,10 +116,6 @@ body {
   gap: 10px;
   justify-content: center;
   align-items: center;
-}
-.portfolio-item img{
-  border-radius: 20px;
-  border: 2px solid #979696 ;
 }
 
 .portfolio-item a {
@@ -288,10 +243,4 @@ a {
 main-nav ul {
   display: flex;
   flex-direction: column;
-}
-
-.about{
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }

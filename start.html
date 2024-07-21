@@ -13,7 +13,9 @@
 
     <header>
         <div class="container">
-
+            <div class="logo">
+                <img src="logo-white-removebg-preview.png" alt="logo">
+            </div>
             <h1>Portfolio Project</h1>
             <nav class="main-nav">
                 <ul>
@@ -23,9 +25,6 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <div class="logo">
-                <img src="logo-white-removebg-preview.png" alt="logo">
-            </div>
             <div class="hamburger">
                 <div class="line"></div>
                 <div class="line"></div>
@@ -36,25 +35,15 @@
 
     <section id="hero">
         <div class="container">
-            <div class="imgC">
-                <img src="../protfolio/hcjsIMG/html-5.png" alt="html">
-                <img src="../protfolio/hcjsIMG/css-3.png" alt="css">
-                <img src="../protfolio/hcjsIMG/java-script.png" alt="js">
-                <img src="../protfolio/hcjsIMG/sass.png" alt="sass">
-            </div>
+            <h2>About Me</h2>
+            <p>As an avid web developer and veteran warehouse manager, I thrive at the dynamic intersection of
+                technology and logistics...</p>
         </div>
     </section>
 
     <section id="about">
         <div class="container">
-            <div class="meAbout">
-                <img class="meIMG" src="me.png" alt="Yahav Helfer">
-                <div class="about">
-                    <h2>About Me</h2>
-                    <h4>As an avid web developer and veteran warehouse manager, I thrive at the dynamic intersection of
-                        technology and logistics...</h4>
-                </div>
-            </div>
+            <img src="me.png" alt="Yahav Helfer">
         </div>
     </section>
 
@@ -140,11 +129,11 @@
     </footer>
     <script>
         const hamburger = document.querySelector('.hamburger');
-        const navMenu = document.querySelector('.main-nav');
+            const navMenu = document.querySelector('.main-nav');
 
-        hamburger.addEventListener('click', () => {
-            navMenu.classList.toggle('open');
-        });
+            hamburger.addEventListener('click', () => {
+                navMenu.classList.toggle('open');
+            });
 
     </script>
 
